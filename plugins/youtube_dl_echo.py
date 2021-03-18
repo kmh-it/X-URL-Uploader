@@ -13,7 +13,8 @@ import json
 import math
 import os
 import time
-from PIL import Image
+#from PIL import Image
+import Image
 # the secret configuration specific things
 if bool(os.environ.get("WEBHOOK", False)):
     from sample_config import Config
